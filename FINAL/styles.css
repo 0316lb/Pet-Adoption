@@ -1,0 +1,40 @@
+body{
+    background-image: url("jason.jpg");
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.donation-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.donation-container {
+    width: 500px;
+    margin: 0 80px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"],
+select{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}

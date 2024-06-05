@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-container {
+    display: flex;
+  }
+  
+  .admin-option {
+    flex: 0 0 16vw; /* Fixed width for admin-option */
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #logOut {
+    text-decoration: none;
+    background-color: #ff5a5f;
+    color: white;
+    padding: 8px;
+    border: 2px solid black;
+    transition: 0.3s;
+  }
+  
+  #logOut:hover {
+    color: #ff5a5f;
+    background-color: white;
+    transform: translate(0, -3px);
+  }
+  
+  h3 {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  h3:hover {
+    color: #4caf50; /* Change to your desired hover color */
+  }
+  
+  #account-table {
+    flex: 1;
+    padding: 5vh;
+    display: block;
+  }
+
+  #program-table {
+    flex: 1;
+    padding: 5vh;
+    display: none;
+  }
+  
+  #adding-table {
+    flex: 1;
+    padding: 5vh;
+    width: 80vw;
+  }
+  
+  #joined-table {
+    flex: 1;
+    padding: 5vh;
+    width: 80vw;
+    display: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #d3d3d3;
+  }
+  
+  #input-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="file"],
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #sort-prorgam {
+    gap: 1vw;
+    width: 10vw;
+    padding: 1vh;
+  }
+  
