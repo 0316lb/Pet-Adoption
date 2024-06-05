@@ -3,6 +3,7 @@ include 'database.php';
 
 session_start();
 
+
 if (isset($_POST["register-btn"])) {
     $username = $_POST['register-username'];
     $email = $_POST['register-email'];
